@@ -1,0 +1,122 @@
+
+header {
+    background-color: rgb(238, 231, 231);
+    color: black;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+body{
+    background: #f6f5f7; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #3E363F;
+    
+}
+section {
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+
+h2{ 
+    color: #71977c;
+}
+#Acerca_de_mí p {
+    text-align: justify;
+}
+#Habilidades ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#Habilidades ul li {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+#Experiencia ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#Experiencia ul li {
+    margin-bottom: 10px;
+}
+
+#Experiencia ul li strong {
+    font-weight: bold;
+}
+#proyectos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#Proyectos ul li {
+    margin-bottom: 10px;
+}
+
+#Proyectos ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+#Proyectos ul li a:hover {
+    text-decoration: underline;
+}
+#Contacto ul li a {
+    text-decoration: none;
+    color: #333;
+}
+#contacto form {
+    margin: 0 auto;
+    width: 500px;
+    
+}
+#Contacto form input,
+#Contacto form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+#Contacto form textarea {
+    height: 100px;
+}
+
+#Contacto form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    
+}
+.menu-item {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    display: inline-block;
+    color: rgb(10, 46, 37);
+    border: 1px solid #ddd; 
+    border-radius: 1px;
+    margin-right: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  .menu-item:hover {
+    background-color: #83ac8f;
+    transition: all 0.4s ease-in-out;
+  }
+
+  footer {
+    background-color:  rgb(238, 231, 231);
+    color: black;
+    text-align: center;
+    padding: 10px;
+  }
